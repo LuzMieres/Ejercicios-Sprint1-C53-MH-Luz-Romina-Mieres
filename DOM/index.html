@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+
+<body class="bg-orange-200 font-sans">
+    <header class="clase-color">
+        <h2>Ejercicio de DOM</h2>
+        <nav>
+            <a class="bg-orange-200 font-semibold" href="#">Home</a>
+            <a class="bg-orange-200 font-semibold" href="#">About</a>
+            <a class="bg-orange-200 font-semibold" href="#">Contact</a>
+        </nav>
+    </header>
+    <main class="min-h-full">
+        <h1 class="text-3xl underline decoration-wavy pb-5 font-semibold" id="h1">Datos</h1>
+        <div class="flex flex-wrap gap-5 justify-center" id="contenedor"></div>
+        <h3 class="text-3xl underline decoration-wavy pb-5 pt-5 font-semibold">Frutas Dulces</h3>
+        <div id="lista">
+            <ul></ul>
+        </div>
+    </main>
+    <footer class="clase-color">
+        <p>MindHub ©</p>
+    </footer>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

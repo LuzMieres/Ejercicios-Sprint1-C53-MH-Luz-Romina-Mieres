@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Funciones de Orden Superior</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="text-center text-2xl underline underline-offset-8 mb-5">Funciones de Orden Superior</h1>
+        <h2 class="text-center text-xl underline underline-offset-8 mb-5">Tabla de Cervezas</h2>
+        <div class="flex justify-center">
+            <table class="border-solid border-2 border-white w-96 shadow-2xl bg-red-300 text-white mb-5">
+                <thead>
+                    <tr>
+                        <th class="border-2 border-white">NOMBRE</th>
+                        <th class="border-2 border-white">ABV</th>
+                        <th class="border-2 border-white">IBU</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpoTabla">                  
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="./datos.js"></script>
+    <script src="./fnOS.js"></script>
+</body>
+
+</html>
